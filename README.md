@@ -1,7 +1,6 @@
-# TexDreamer: Text-driven Photorealistic and Robust Texture Synthesis via
-Multi-View Diffusion
+# TexDreamer: Text-driven Photorealistic and Robust Texture Synthesis via Multi-View Diffusion
 
-### [Project Page](https://imagebind-3d.github.io/imagebind3d/)  | [GitHub]() | [Paper]()
+### [Project Page](https://texdreamer.github.io/TexDreamer/)  | [GitHub]() | [Paper]()
 
 <p align="center" style="text-align:center;">
   <img width="98%" src="./img/01.png">
@@ -42,11 +41,11 @@ the superior quality and consistency achieved by our approach.
 </p>
 
 ### Approach
-<p align="center">
-<figcaption style="text-align: justify;">In this paper, we present TexDreamer, a novel coarse-to-fine approach for text-guided 3D texture synthesis designed to overcome
+
+<figcaption style="text-align: justify;">In this paper, we present TexDreamer, a novel coarse-to-fine approach for text-guided 3D texture synthesis to overcome
 the limitations of existing methods, as illustrated in Figure 2. Our
 TexDreamer employs a texture field representation to achieve a
-continuous encoding of texture information. By utilizing physicallybased rendering (PBR) techniques, our approach facilitates the generation of high-quality textures with enhanced realism and detail.
+continuous encoding of texture information. By utilizing physically-based rendering (PBR) techniques, our approach facilitates the generation of high-quality textures with enhanced realism and detail.
 In the initial stage, we employ a multi-view diffusion approach to
 promote early consensus among the generated anchor views. This
 consensus mechanism promotes consistency in the overall structure
@@ -56,5 +55,51 @@ loss and SDS losses to generate novel views while simultaneously
 preserving the integrity of neighboring anchor views. This hybrid
 loss function leverages the complementary strengths of perceptual
 and semantic guidance, ensuring both visual coherence and semantic fidelity within the synthesized textures.</figcaption>
-  <img width="98%" src="./img/method.jpg">
+<p align="center" style="text-align:center;">
+  <img width="98%" src="./img/2.jpg">
+</p>
+### More results
+<p align="center">
+  <div style="display: inline-block; width: 23%;">
+   <span style="display: block; text-align: center;">A brown horse </span>
+    <img width="100%" src="./img/05.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%; margin-left: 2%;">
+  <span style="display: block; text-align: center;">A packbag </span>
+    <img width="100%" src="./img/06.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%; margin-left: 2%;">
+  <span style="display: block; text-align: center;">A Chinese bell</span>
+    <img width="100%" src="./img/07.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%;margin-left: 2%;">
+  <span style="display: block; text-align: center;">A sword </span>
+    <img width="100%" src="./img/08.gif">    
+    <br>
+  </div>
+</p>
+<p align="center">
+  <div style="display: inline-block; width: 23%;">
+   <span style="display: block; text-align: center;">A colorful vase </span>
+    <img width="100%" src="./img/09.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%; margin-left: 2%;">
+  <span style="display: block; text-align: center;">A cute  bunny </span>
+    <img width="100%" src="./img/10.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%; margin-left: 2%;">
+  <span style="display: block; text-align: center;">An alien</span>
+    <img width="100%" src="./img/11.gif">    
+    <br>
+  </div>
+  <div style="display: inline-block; width: 23%;margin-left: 2%;">
+  <span style="display: block; text-align: center;">A canvas boot </span>
+    <img width="100%" src="./img/12.gif">    
+    <br>
+  </div>
 </p>
